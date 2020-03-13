@@ -11,13 +11,25 @@ Timing Gates
 *Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the* `replicationproject` *folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing, updating the number* `1` *in the subtitle for each.*
 
 ### Related project 1 ###
-(Insert name of project)
+Junkyard Engineering - Bluetooth Laser Gate Timer
 
-(Insert URL to project)
+https://www.youtube.com/watch?v=SxFBqXPfO84
 
-![Image](missingimage.png)
+![Image](JunkyardEngineering_BT_LGT.JPG)
 
-This project is related to mine because (insert reasons here).
+This project is related to mine because it uses two sensors (in this case lasers) to trigger the recording of timestamps for calculating speed of an object traveling between the timed gates.
+
+
+### Related project 2 ###
+Neopixel Light Painting Stick
+
+ <span>                | <span>                 | <span> 
+---------------------- | ---------------------- | ----------------------
+![Image](IMG_6157.jpg) | ![Image](IMG_9795.jpg) | ![Image](IMG_7598.jpg)
+
+This is one of my previous projects and is related to this one due to commonalities of using a strip of Neopixels and timing mechanisms; in this case to display an image - one column of pixels at a time. This enables the creation of interesting long-exposure camera effects that produce the illusion of light painting in 3D space.
+
+
 
 ## Reading reflections ##
 *Reflective reading is an important part of actually making your reading worthwhile. Don't just read the words to understand what they say: read to see how the ideas in the text fit with and potentially change your existing knowledge and maybe even conceptual frameworks. We assume you can basically figure out what the readings mean, but the more important process is to understand how that changes what you think, particularly in the context of your project.*
