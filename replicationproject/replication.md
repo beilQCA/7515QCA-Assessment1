@@ -29,6 +29,13 @@ Neopixel Light Painting Stick
 
 This is one of my previous projects and is related to this one due to commonalities of using a strip of Neopixels and timing mechanisms; in this case to display an image - one column of pixels at a time. This enables the creation of interesting long-exposure camera effects that produce the illusion of light painting in 3D space.
 
+### Related project 3 ###
+
+### Related project 4 ###
+
+### Related project 5 ###
+
+### Related project 6 ###
 
 
 ## Reading reflections ##
