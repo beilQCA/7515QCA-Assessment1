@@ -1,17 +1,27 @@
 # Assessment 1: Replication project
 
-*Fill out the following workbook with information relevant to your project.*
-
-*Markdown reference:* [https://guides.github.com/features/mastering-markdown/](http://guides.github.com/features/mastering-markdown/)
-
 ## Replication project choice ##
-Timing Gates
+
+### :racing_car: **Timing Gates** 
+
+The original project uses a simple mechanism of detecting a closed circuit to trigger a pin activation (timestamp) event whereby two strips of foil are placed within a few millimeters of each other to enable a toy car with a piece of foil taped to its undercarriage to close the circuit as it passes over the foil gates. The difference between the timestamp events is then displayed using the on-board microbit LED display.
+
+My project expands on this idea in the following ways.
+ * Using TCRT5000 Optical Sensors to trigger gate events
+ * Using a piezzo buzzer to trigger sounds when the gate events occur
+ * Using the microbit LED display to provide visual feedback when each gate event occurs.
+ * Providing a programmed state mechanism to ensure gate events occur in correct sequence.
+ * Providing a means to reset the system to interrupt a slow simulation  
+ * Providing a means to increment the distance between the sensors should the non-default distance be required.
+ * Using a strip of Neopixels as a feedback mechanism to display a simulation of the calculated speed.
+
+Additionally, the aesthetic of the final project will employ a Hot Wheels race track which will be retrofitted with the electronics as discretely as possible. This will include inserting the Neopixel strip into one or more lengths of the track while - in the case of multiple track lengths, it would be desirable to use a modular connection mechanism to link multiple Neopixel lengths. This would ensure the toy could be constructed/deconstructed in the usual manner without imposing limitations on its conventional designed use.
+ 
 
 ## Related projects ##
-*Find about 6 related projects to the project you choose. A project might be related through  function, technology, materials, fabrication, concept, or code. Don't forget to place an image of the related project in the* `replicationproject` *folder and insert the filename in the appropriate places below. Copy the markdown block of code below for each project you are showing, updating the number* `1` *in the subtitle for each.*
 
 ### Related project 1 ###
-Junkyard Engineering - Bluetooth Laser Gate Timer
+**Junkyard Engineering - Bluetooth Laser Gate Timer**
 
 https://www.youtube.com/watch?v=SxFBqXPfO84
 
@@ -21,7 +31,7 @@ This project is related to mine because it uses two sensors (in this case lasers
 
 
 ### Related project 2 ###
-Neopixel Light Painting Stick
+**Neopixel Light Painting Stick**
 
  <span>                | <span>                 | <span> 
 ---------------------- | ---------------------- | ----------------------
@@ -30,6 +40,13 @@ Neopixel Light Painting Stick
 This is one of my previous projects and is related to this one due to commonalities of using a strip of Neopixels and timing mechanisms; in this case to display an image - one column of pixels at a time. This enables the creation of interesting long-exposure camera effects that produce the illusion of light painting in 3D space.
 
 ### Related project 3 ###
+**DIY Hot Wheels Drag Race Timer**
+
+https://hackaday.com/2015/01/19/diy-hot-wheels-drag-race-timer/
+
+![Image](hotwheels.jpg)
+
+This shares the idea I have of modifying a toy Hot Wheels race track for this project. This similarly uses timed gates - in this case low power laser modules mounted under the track, and displays the calculated times on LCD displays above the track.
 
 ### Related project 4 ###
 
