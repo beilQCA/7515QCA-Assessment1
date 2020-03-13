@@ -64,9 +64,17 @@ This shares the idea I have of modifying a toy Hot Wheels race track for this pr
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+I question the statement that an ‘affordance is not a property‘ [of the object] – with reference to the provided example of the weight of a chair and its ability to be lifted/moved is dependent on the capability of the agent. My argument is that an object (the chair) is attributed a weight which is a property of the object – and the specified weight, length, height etc (attribute/property) of the object is typically labelled as such therefore signifying to the agent the limitations imposed by the attributes. This is the first time I have encountered the term used in this context and while I understand the meaning expressed in this text, I doubt it’s a widely accepted term used in mainstream design vernacular – and not a term used in any industrial design, architecture studies, digital design or visual art subjects I have undertaken over the years. 
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
 
+This extends the answer above. I wouldn’t suggest this has affected or changed a whole lot about what I have come to know in my many years of academic studies… This is just another example of concepts for the sake of academic rhetoric – which are merely conceptual frameworks for describing a new convoluted way of thinking about things that are generally already known.
+
+What Norman hinted at with his discussions with Gibson but failed to articulate, is the fact that much of what is known about how to interact with objects whether natural or artificial is that of **learned experience**. I dissagree with the idea that interaction is acheived without internalised cognitive processing. Humans use combinations of their senses to cognitively process their worldly interactions, but that only describes the superficial interface between object and interaction. It is the application of prior learned experiences that facilitates the 'know how' when learning to interact within novel situations. Given Gibson's argument, we'd all be born with the innate ability to fully interact with our environment without the need for memory and learning from our experiences.
+
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
+
+Nothing about this text piques my interest apart from the holes in the theories.
 
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
 
