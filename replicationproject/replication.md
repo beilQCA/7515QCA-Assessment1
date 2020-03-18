@@ -106,15 +106,11 @@ The enhancements I will be making to the existing product will afford its user a
 
 ## Process documentation
 
-*In this section, include text and images that represent the development of your project including sources you've found (URLs and written references), choices you've made, sketches you've done, iterations completed, materials you've investigated, and code samples. Use the markdown reference for help in formatting the material.*
-
-*This should have quite a lot of information!*
-
-*There will likely by a dozen or so images of the project under construction. The images should help explain why you've made the choices you've made as well as what you have done. Use the code below to include images, and copy it for each image, updating the information for each.*
-
-*Include screenshots of the code you have used.*
+First draft MakeCode screenshot
 
 ![Image](Assignment_1_Screenshot.JPG)
+
+Initial testing of single Neopixel strip triggered by a pair of TRC5000 sensors
 
 <span>                | <span>                  
 ---------------------- | ---------------------- 
@@ -127,12 +123,14 @@ Purchased a Hot Wheels track set ($17) which has dual car tracks, two cars and d
 ---------------------- | ---------------------- 
  ![Image](_MG_3143.jpg) | ![Image](_MG_3153.jpg)
 
-
+https://player.vimeo.com/video/398522609
 ![Dual Neopixel Control Development](video1_still.jpg)
  
-https://player.vimeo.com/video/398522609
+
 
 Note to self... testing the Neopixel strips seem to work best (with lab power) at 3.3v and not 5v. Also, the Micro:Bit is very finnicky regarding which pins can support them which took some time to figure out... Using Pin8 produced perfect results while Pin9 produced incorrect colour and that pesky #1 green pixel problem! Switching the second strip to use Pin11 resolved this.
+
+
 
 ## Project outcome ##
 
