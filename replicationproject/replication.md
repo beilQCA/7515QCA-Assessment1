@@ -120,6 +120,13 @@ The enhancements I will be making to the existing product will afford its user a
 
 ![Image](_MG_3131.jpg)
 
+[![Dual Neopixel Control Development]({video1_still.JPG})]({https://player.vimeo.com/video/398522609} "Dual Neopixel Control Test")
+
+Purchased a Hot Wheels track set ($17) which has dual car tracks, two cars and dual manual mechanisms for shooting the cars down the track which is ideal since this will allow greater variability with testing as opposed to track sets that have an electronic launch system which would be pretty much consistent with each event... so I'm now extending the original intent to include handling dual track electronics.
+
+Note to self... testing the Neopixel strips seem to work best (with lab power) at 3.3v and not 5v. Also, the Micro:Bit is very finnicky regarding which pins can support them which took some time to figure out... Using Pin8 produced perfect results while Pin9 produced incorrect colour and that pesky #1 green pixel problem! Switching the second strip to use Pin11 resolved this.
+
+<iframe src="https://player.vimeo.com/video/398522609" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 ## Project outcome ##
 
