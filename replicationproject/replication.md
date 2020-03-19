@@ -131,11 +131,14 @@ Note to self... testing the Neopixel strips seem to work best (with lab power) a
 **Added an IC2 LCD1602 display module**
 ![Image](_MG_3158.jpg)
 
+
 **Testing the dual Neopixel strips along with the LCD**
 https://vimeo.com/398761390
 
+
 **The revised MakeCode algorithm**
 ![Image](Assignment_1_MakeCode_Revised_2.jpg)
+
 
 **Electronics installation begins**
 <span>                | <span>                  
@@ -149,14 +152,14 @@ https://vimeo.com/398761390
 
 ## Project outcome ##
 
-*Complete the following information.*
-
 ### Project title ###
-**Enhanced Hot Wheels Racetrack**
+**Hot Wheels V2 Racetrack**
 
 ### Project description ###
 
-*In a few sentences, describe what the project is and does, who it is for, and a typical use case.*
+The project enhances an existing Hot Wheels toy car dual race track to incorporate a number of electronic modifications based on the Micro:Bit controller. The manufacturer indicates that the toy is suitable for children ages 4-10, however with the addition of potentially hazardous electronic components this would be adjusted to a higher age bracket accordingly.
+The enhancements include the addition of sensors that are used to calculate the speed of each car as it is ejected from the launch mechanism. As each car passes the sensors, a beep is emitted indicating the timer has been triggered. The speed is also simulated visually with a strip of 33 RGB LEDs (Neopixels) embedded in a segment of each track, as well as being displayed on an LCD screen above the track.
+The intent here is to elevate the enjoyment and experience of play through the addition of interaction by means of visual and audio feedback elements.
 
 ### Showcase image ###
 
