@@ -126,11 +126,26 @@ Purchased a Hot Wheels track set ($17) which has dual car tracks, two cars and d
 https://player.vimeo.com/video/398522609
 ![Dual Neopixel Control Development](video1_still.jpg)
  
-
-
 Note to self... testing the Neopixel strips seem to work best (with lab power) at 3.3v and not 5v. Also, the Micro:Bit is very finnicky regarding which pins can support them which took some time to figure out... Using Pin8 produced perfect results while Pin9 produced incorrect colour and that pesky #1 green pixel problem! Switching the second strip to use Pin11 resolved this.
 
+**Added an IC2 LCD1602 display module**
+![Image](_MG_3158.jpg)
 
+**Testing the dual Neopixel strips along with the LCD**
+https://vimeo.com/398761390
+
+**The revised MakeCode algorithm**
+![Image](Assignment_1_MakeCode_Revised_1.jpg)
+
+**Electronics installation begins**
+<span>                | <span>                  
+---------------------- | ---------------------- 
+ ![Image](_MG_3169.jpg) | ![Image](_MG_3171.jpg)
+ ![Image](_MG_3172.jpg) | ![Image](_MG_3175.jpg)
+ 
+  ![Image](_MG_3176.jpg)
+
+ 
 
 ## Project outcome ##
 
