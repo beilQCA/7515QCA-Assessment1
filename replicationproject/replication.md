@@ -135,7 +135,7 @@ Note to self... testing the Neopixel strips seem to work best (with lab power) a
 https://vimeo.com/398761390
 
 **The revised MakeCode algorithm**
-![Image](Assignment_1_MakeCode_Revised_1.jpg)
+![Image](Assignment_1_MakeCode_Revised_2.jpg)
 
 **Electronics installation begins**
 <span>                | <span>                  
