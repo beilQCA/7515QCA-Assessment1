@@ -148,7 +148,8 @@ https://vimeo.com/398761390
  
   ![Image](_MG_3176.jpg)
 
- 
+I'm not satisfied with the TRCT5000 sensors - mainly with regards to responsiveness. Initial car testing shows that the sensors are not triggered as the cars are travelling too quickly for it to register so I'm changing the sensor type to **photo-resistors**. I only decided to use the TRCT5000's because I bought a pile of them several years ago for another project. I have only 3 photo-resistors so will have to see if I can get a fourth from Jaycar. Hopefully with a little tweaking these will prove to be somewhat more responsive than the former.
+
 
 ## Project outcome ##
 
