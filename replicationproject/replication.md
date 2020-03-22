@@ -135,9 +135,15 @@ Note to self... testing the Neopixel strips seem to work best (with lab power) a
 **Testing the dual Neopixel strips along with the LCD**
 https://vimeo.com/398761390
 
+I'm not satisfied with the TRCT5000 sensors - mainly with regards to responsiveness. Initial car testing shows that the sensors are not triggered as the cars are travelling too quickly for it to register so I'm changing the sensor type to **photo-resistors**. I only decided to use the TRCT5000's because I bought a pile of them several years ago for another project. I have only 3 photo-resistors so will have to see if I can get a fourth from Jaycar. Hopefully with a little tweaking these will prove to be somewhat more responsive than the former.
+
+I bought the fourth sensor from Jaycar but it looks slightly different to the version I have. I've wasted about 12 hours on this sensor issue. Tried all manner of tweaks including retesting sensed values using different resistors etc. The fourth sensor just doesn't behave like the others and I've given up with doing two tracks; although it should be noted that the design of the system can easily accommodate a second track.
+
+I have had to rework the MakeCode algorithm to remove some of the serial processes that were making the system very sluggish and causing a reduced 'sensitivity' of the sensor arrangement. Breaking out chunks of code into their own 'Forever' constructs effectively provides multi-tasking facility and has now been tested to be very responsive.
+
 
 **The revised MakeCode algorithm**
-![Image](Assignment_1_MakeCode_Revised_2.jpg)
+![Image](Makecode.jpg)
 
 
 **Electronics installation begins**
@@ -147,10 +153,6 @@ https://vimeo.com/398761390
  ![Image](_MG_3172.jpg) | ![Image](_MG_3175.jpg)
  
   ![Image](_MG_3176.jpg)
-
-I'm not satisfied with the TRCT5000 sensors - mainly with regards to responsiveness. Initial car testing shows that the sensors are not triggered as the cars are travelling too quickly for it to register so I'm changing the sensor type to **photo-resistors**. I only decided to use the TRCT5000's because I bought a pile of them several years ago for another project. I have only 3 photo-resistors so will have to see if I can get a fourth from Jaycar. Hopefully with a little tweaking these will prove to be somewhat more responsive than the former.
-
-I bought the fourth sensor from Jaycar but it looks slightly different to the version I have. I've wasted about 12 hours on this sensor issue. Tried all manner of tweaks including retesting sensed values using different resistors etc. The fourth sensor just doesn't behave like the others and I've given up with doing two tracks. The frustration of these sensors and their lack of responsiveness has really put me off the project. Having reduced the scope to 1 track still does nothing to resolve this issue. It works if you slowly move a car across the sensors but at speed, the processor simply can't read the values fast enough to trigger the event. This has been tested with a bare-bones program without all the bells and whistles and still does not work as I would expect. Very frustrating to say the least. Giving up in disgust. I need to work on my other assignments - feel I've spent way too long working on this stuff already. 
 
 
 
