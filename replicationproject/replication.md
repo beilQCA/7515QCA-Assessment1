@@ -141,7 +141,6 @@ I bought the fourth sensor from Jaycar but it looks slightly different to the ve
 
 I have had to rework the MakeCode algorithm to remove some of the serial processes that were making the system very sluggish and causing a reduced 'sensitivity' of the sensor arrangement. Breaking out chunks of code into their own 'Forever' constructs effectively provides multi-tasking facility and has now been tested to be very responsive.
 
-
 **The revised MakeCode algorithm**
 ![Image](Makecode.jpg)
 
@@ -154,7 +153,8 @@ I have had to rework the MakeCode algorithm to remove some of the serial process
  
   ![Image](_MG_3176.jpg)
 
-
+As far as the aesthetics are concerned, I was careful to drill holes just big enough to accommodate the photo-resistor sensors which have been mounted flush with the surface of the track. A strip was removed from the center of a track length to allow the LEDs to affixed to the underside. The wiring along the track has been conceal by gluing to the underside of the track.
+As far as the major electronics goes, there's not really a whole lot that I can do by the deadline to house this in an aesthetically designed housing... given more time and resources I probably would have designed something in Solidworks for 3D printing.
 
 ## Project outcome ##
 
