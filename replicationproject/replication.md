@@ -56,37 +56,48 @@ This shares the idea I have of modifying a toy Hot Wheels race track for this pr
 
 
 ## Reading reflections ##
-*Reflective reading is an important part of actually making your reading worthwhile. Don't just read the words to understand what they say: read to see how the ideas in the text fit with and potentially change your existing knowledge and maybe even conceptual frameworks. We assume you can basically figure out what the readings mean, but the more important process is to understand how that changes what you think, particularly in the context of your project.*
-
-*For each of the assigned readings, answer the questions below.*
 
 ### Reading: Don Norman, The Design of Everyday Things, Chapter 1 (The Psychopathology of Everyday Things) ###
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
-I question the statement that an ‘affordance is not a property‘ [of the object] – with reference to the provided example of the weight of a chair and its ability to be lifted/moved is dependent on the capability of the agent. My argument is that an object (the chair) is attributed a weight which is a property of the object – and the specified weight, length, height etc (attribute/property) of the object is typically labelled as such therefore signifying to the agent the limitations imposed by the attributes. 
+I question the statement that an ‘affordance is not a property‘ (of the object) – with reference to the provided example of the weight of a chair and its ability to be lifted/moved is dependent on the capability of the agent. Norman suggests that the chair affords itself to be lifted (or not) as a personification of the object. My argument is that an object (the chair) is attributed a weight which is a property of the object – and the specified weight, length, height etc (attribute/property) of the object is typically labelled as such therefore signifying to the agent the limitations imposed by the attributes. Affordance is an odd term in this context and used as if the object has free will.
 
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
 
-What Norman hinted at with his discussions with Gibson but failed to articulate, is the fact that much of what is known about how to interact with objects whether natural or artificial is that of **learned experience**. I dissagree with Gibson's idea that interaction is acheived without internalised cognitive processing. Humans use combinations of their senses to cognitively process their worldly interactions, but that only describes the superficial interface between object and interaction. It is the application of prior learned experiences that facilitates the 'know how' when learning to interact within novel situations. Given Gibson's argument, we'd all be born with the innate ability to fully interact with our environment without the need for memory and learning from our experiences.
+What Norman hinted at with his discussions with Gibson but failed to articulate, is the fact that much of what is known about how to interact with objects whether natural or artificial is that of learned experience and memory. I dissagree with Gibson's idea that interaction is acheived without internalised cognitive processing. Humans use combinations of their senses to cognitively process their worldly interactions, but that only describes the superficial interface between object and interaction. It is the application of prior learned experiences that facilitates the 'know how' when learning to interact within novel situations. Given Gibson's argument, we'd all be born with the innate ability to fully interact with our environment without the need for memory and learning from our experiences.
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
-I'm quite familiar with the terms discussed in this text - they are commonly used in IT systems engineering.
+I'm quite familiar with the terms discussed in this text - they are commonly used in IT and systems engineering.
 
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
 
-The enhancements I will be making to the existing product will afford its user a new level of engagement; through the application of novel feedback mechanisms by way of light and sound effects, and simple interface signifiers that a child would have no problem interpreting or understanding.
+The enhancements I will be making to the existing product will afford its user a new level of engagement; through the application of novel feedback mechanisms by way of light and sound effects, and simple interface signifiers the target market would have no problem interpreting or understanding.
 
 ### Reading: Chapter 1 of Dan Saffer, Microinteractions: Designing with Details, Chapter 1 ###
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+While I'm not an iPhone user, I would have presumed that when a user chooses to mute the phone that would include every noise produced by the device. It was surprising to read that this was not the case.
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+It is interesting reading about the things that I know from an IT perspective through the lense of product design. Micro-interactions are what I know as features or services. Before the days of smart-phones and 'apps', software application development considered these things as 'bells & whistles' and production teams were rarely afforded the luxury of entertaining the implementation of these as they were both labour intensive and contentious (where significant resources could be wasted battling clients expectations and aesthetic variances). 
+
+Additionally, these extraneous items would slow down processing of the system in a time where performance was the most important directive. Obviously as technology and job roles have evolved and system performance is no longer given precedence, micro-interactions are presumed and expected. Also, as very high-level languages and functional libraries are adopted, the burden for developers has decreased in this regard. Microinteractions are more or less the way that 'end-users' are afforded the ability to configure their devices with far greater control and ease than ever before - where once this required IT professionals intervention to tweak the system.
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+I don't really have a question as such, instead I will provide a perspective.
+
+As a futurist, I see this current model of product interaction as moving ever more closely to autonomously evolving devices - moving  beyond these user-configurable microinteractions that are merely a passing phase of technical evolution. We are now witnessing an ever increasing adaptation of neural-network and deep-learning algorithms to learn user behaviour through their interaction. This will eventually reach a point of singularity, where new products (physical and virtual) will gain an immediate understanding about their user at the outset - accessable through the global knowledge-base upon a users first encounter and automatic (probably biometric) registration.
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
+
+These ideas are in no way new to me and I am constantly thinking about the useability of products. In this project for instance, I laboured for many hours over improving the perceived responsiveness of the interactions. Through many iterations of modification and testing (many more than articulated here for brevity) to ensure that the timing gates worked seemlessly with the product. Testing that the visual feedback was synchronous with the physical behaviour of the interaction. I was not satisfied with using the Micro:Bit's very limited LED matrix to display the calculated times for instance... so I employed the use of an LCD screen which can convey more information more quickly and statically. The information is available immediately at the conclusion of a race and remains there until the next race. Further, there is no time wasted waiting for and interpreting characters as they scroll across the screen. 
+
+This also extended to the Neopixel string embedded in the track, and how this simulates the calculated speed of the car as it traverses the track. Code was reworked several times to improve performance of the system. Bottlenecks in processing were identified and modified accordingly. For instance, rather than engage the on-board LED matrix for visual feedback to signify the triggering of timing events, these were replaced with audible beeps. As I see it, the user is not going to take their eyes off the car on the track since this interaction is all about speed and the event is over in seconds - averting their gaze away from the track would risk missing the action; and hence the feature would be redundant.
 
 ### Reading: Scott Sullivan, Prototyping Interactive Objects ###
 
