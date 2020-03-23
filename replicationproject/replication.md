@@ -117,10 +117,6 @@ This also extended to the Neopixel string embedded in the track, and how this si
 
 ## Process documentation
 
-First draft MakeCode screenshot
-
-![Image](Assignment_1_Screenshot.JPG)
-
 Initial testing of single Neopixel strip triggered by a pair of TRC5000 sensors
 
 <span>                | <span>                  
