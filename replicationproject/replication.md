@@ -146,15 +146,9 @@ Note to self... testing the Neopixel strips seem to work best (with lab power) a
 **Testing the dual Neopixel strips along with the LCD**
 https://vimeo.com/398761390
 
-I'm not satisfied with the TRCT5000 sensors - mainly with regards to responsiveness. Initial car testing shows that the sensors are not triggered as the cars are travelling too quickly for it to register so I'm changing the sensor type to **photo-resistors**. I only decided to use the TRCT5000's because I bought a pile of them several years ago for another project. I have only 3 photo-resistors so will have to see if I can get a fourth from Jaycar. Hopefully with a little tweaking these will prove to be somewhat more responsive than the former.
+Not satisfied with the TRCT5000 sensors - mainly with regards to responsiveness. Initial car testing shows that the sensors don't appear to be triggered as the cars are travelling too quickly to register so am changing the sensor type to **photo-resistors**. The TRCT5000's were the initial choice simply because I had a pile of them in reserve from another project. With only 3 photo-resistors will try to get a fourth from Jaycar. Hopefully with a little tweaking these will prove to be somewhat more responsive than the former.
 
-I bought the fourth sensor from Jaycar but it looks slightly different to the version I have. I've wasted about 12 hours on this sensor issue. Tried all manner of tweaks including retesting sensed values using different resistors etc. The fourth sensor just doesn't behave like the others and I've given up with doing two tracks; although it should be noted that the design of the system can easily accommodate a second track.
-
-I have had to rework the MakeCode algorithm to remove some of the serial processes that were making the system very sluggish and causing a reduced 'sensitivity' of the sensor arrangement. Breaking out chunks of code into their own 'Forever' constructs effectively provides multi-tasking facility and has now been tested to be very responsive.
-
-**The revised MakeCode algorithm**
-![Image](Makecode.jpg)
-
+Sourced the fourth sensor from Jaycar but it looks slightly different to the other 3. Wasted the best part of a day on this sensor issue. Tried all manner of tweaks including retesting sensed values using different resistors etc. The fourth sensor just doesn't behave like the others with a very narrow range of values produced, so given up with doing two tracks. Given more time I would try and source a matching component to deliver both tracks as was originally intended. It should be noted that the design of the system can easily accommodate a second track with little modification.
 
 **Electronics installation begins**
  
@@ -163,13 +157,18 @@ I have had to rework the MakeCode algorithm to remove some of the serial process
  ![Image](_MG_3169.jpg) | ![Image](_MG_3171.jpg) | ![Image](_MG_3172.jpg)
  ![Image](_MG_3175.jpg) | ![Image](_MG_3176.jpg) | ![Image](_MG_3181.jpg)
  ![Image](_MG_3183.jpg) | ![Image](_MG_3188.jpg) | ![Image](_MG_3200.jpg)
- ![Image](_MG_3203).jpg) | ![Image](_MG_3204.jpg) | ![Image](_MG_3206.jpg)
+ ![Image](_MG_3203.jpg) | ![Image](_MG_3204.jpg) | ![Image](_MG_3206.jpg)
  
 As far as the aesthetics are concerned, I was careful to drill holes just big enough to accommodate the photo-resistor sensors which have been mounted flush with the surface of the track. A strip was removed from the center of a track length to allow the LEDs to affixed to the underside. The wiring along the track has been conceal by gluing to the underside of the track.
 
 I chose to use an off-the-shelf black housing to accommodate the major electronic components. Using the Dremel, openings were created; in the front face for the LCD screen, the top face for the Micro:Bit, and the sides for connectors and the Piezo buzzer.
 
 Since the LCD screen and the Neopixels require 5V power, a step-down converter was used to deliver 3.3V to the Micro:Bit while powering the whole project via a single DC barrel mounted in the side of the housing box. The 3.3V is provided to the processor via the Kitronik breakout adaptor (similar to the one that came with the Inventors Kit) - effectively bypassing the USB or battery requirement, which is a handy feature.
+
+I have had to rework the MakeCode algorithm to remove some of the sequential processing that was making the system very sluggish and causing a reduced 'sensitivity' of the sensor arrangement. Breaking out chunks of code into their own 'Forever' constructs effectively provides multi-tasking facility and has now been tested to be very responsive.
+
+**The revised MakeCode algorithm**
+![Image](Makecode.jpg)
 
 
 
