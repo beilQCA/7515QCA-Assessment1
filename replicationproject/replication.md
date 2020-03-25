@@ -213,8 +213,28 @@ A number of ideas were explored (in relation to candidate electronic components)
   * Information about the use of APA102 LED's (DotStars - had considered using in project) with the Micro:Bit - http://www.smythe-consulting.com/2017/03/driving-dotstar-apa102-led-strings-with.html
   * Information pertaining to the use of e-Paper HAT (had considered using in project) - https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT
   * More information re e-Paper HAT - https://emscripten.org/docs/getting_started/Tutorial.html#tutorial
-  
-  
+
 *What might be an interesting extension of this project? In what other contexts might this project be used?*
 
 Staying within the context of toy enhancement, this concept would be well suited for use in a slot-car racing set, where a timed race could be implemented along with best lap times and leader board displays. Also, modifying the Neopixel strands to vary in pattern or colour dependent on speed etc could make for added interest, along with a 'winner's flag' and musical salute to the race winner.
+
+**Bill of Materials**
+  * 1 x Micro:Bit controller ($27)
+  * 1 x Kitronik edge-connector breakout board for Micro:Bit controller ($15.65)
+  * 1 x LCD1602 I2C module ($13)
+  * 1 x WS2812 (Neopixel) strip 144 LEDs/m ($28)
+  * 1 x Ultra-Small Size DC-DC Step Down Power Supply Module 3A Adjustable Buck Converter ($2.89)
+  * 4 x 10K ohm resistors
+  * 4 x 220 ohm resistors
+  * 4 x Photo-resistors ($18.80)
+  * 1 x Selly's 2 part All Plastic Fix glue ($8.95)
+  * 1 x Hot Wheels Turbo Race Set ($17)
+  * 1 x Self-closing Braided Wire Wrap - 9mm x 2m ($7.95)
+  * 1 x DC Barrel connector ($1.50)
+  * 1 x Black ABS Electronics Housing Box ($4.95)
+  * 28 AWG wire
+  * 22 AWG wire
+  * Male-Female Dupont jumpers
+
+**Total Project Cost: ~ $145**
+
