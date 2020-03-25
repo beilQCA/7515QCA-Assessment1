@@ -93,12 +93,19 @@ This also extended to the Neopixel string embedded in the track, and how this si
 
 *What I thought before: Describe something that you thought or believed before you read the source that was challenged by the reading.*
 
+I agree to a certain extent with the author statement about designers merely using quick and dirty approaches to prototyping coded solutions. However, this approach still requires a significant investment of time and effort to gain some level of understanding of syntactic and semantic requirements of any chosen language. This approach is not limited to designers and is a key concept in rapid prototype development in the IT sector. In my graduate software engineering days, this was not the case - with everything requiring absolute discipline and strict standard adherence using well defined development frameworks. This was largely due to the stupendous resources required to develop software systems of any type... with modern languages and loose development practices, pretty much anyone can hack code for any purpose.
+
 *What I learned: Describe what you now know or believe as a result of the reading. Don't just describe the reading: write about what changed in YOUR knowledge.*
+
+Not so much what I now know as a result of the reading, but what I know as a long-time user of the technologies, the Processing IDE was used as a template for the Arduino IDE. There is another very cool toolset available that links the professional level parametric 3D modelling application *Rhinoceros* to physical computing using plugins like *Firefly* for the *Grasshopper* visual coding environment allowing designers to build complex interactive 3D systems.
 
 *What I would like to know more about: Describe or write a question about something that you would be interested in knowing more about.*
 
+I wasn't aware of these platforms being used in augmented reality or for real-time image processing tasks. I'd be interested in learning more about how these projects were implemented, and what was achieved with respect to responsiveness and processing performance. 
+
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
 
+I've used these platforms on a number of multimedia and sculptural projects. The Arduino IDE is a fantastic resource that enables a designer/artist/maker extensive flexibility in terms of the multitude of other controllers, sensors and peripherals available along with their associated open-source libraries and examples. Whatsmore, Arduino-like controllers can be used in conjunction with SBC's like Raspberry Pi's making them extremely portable, flexible and powerful.
 
 ## Interaction flowchart ##
 
