@@ -81,7 +81,7 @@ Additionally, these extraneous items would slow down processing of the system in
 
 I don't really have a question as such, instead I will provide a perspective.
 
-As a futurist, I see this current model of product interaction as moving ever more closely to autonomously evolving devices - moving  beyond these user-configurable microinteractions that are merely a passing phase of technical evolution. We are now witnessing an ever increasing adaptation of neural-network and deep-learning algorithms to learn user behaviour through their interaction. This will eventually reach a point of singularity, where new products (physical and virtual) will gain an immediate understanding about their user at the outset - accessable through the global knowledge-base upon a users first encounter and automatic (probably biometric) registration.
+As a futurist, I see this current model of product interaction as moving ever more closely to autonomously evolving devices - moving  beyond user-configurable microinteractions that are merely a passing phase of technical evolution. We are now witnessing an ever increasing adoption of neural-network and deep-learning algorithms to observe and learn user behaviours. Eventually this will reach a point of singularity, where new products (physical and virtual) will gain immediate knowledge about their user at the outset - accessable through the ever-expanding, global knowledge-base that will link the device and user at the first encounter with seemless biometric registration.
 
 *How this relates to the project I am working on: Describe the connection between the ideas in the reading and one of your current projects or how ideas in the reading could be used to improve your project.*
 
