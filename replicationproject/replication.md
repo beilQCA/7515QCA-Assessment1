@@ -7,17 +7,15 @@
 The original project uses a simple mechanism of detecting a closed circuit to trigger a pin activation (timestamp) event whereby two strips of foil are placed within a few millimeters of each other to enable a toy car with a piece of foil taped to its undercarriage to close the circuit as it passes over the foil gates. The difference between the timestamp events is then displayed using the on-board microbit LED display.
 
 My project expands on this idea in the following ways.
- * Using TCRT5000 Optical Sensors to trigger gate events
+ * Using Photo-resistor sensors to trigger gate events
  * Using a piezzo buzzer to trigger sounds when the gate events occur
- * Using the microbit LED display to provide visual feedback when each gate event occurs.
  * Providing a programmed state mechanism to ensure gate events occur in correct sequence.
- * Providing a means to reset the system to interrupt a slow simulation  
- * Providing a means to increment the distance between the sensors should the non-default distance be required.
+ * Providing a means to reset the system via on-board button press
  * Using a strip of Neopixels as a feedback mechanism to display a simulation of the calculated speed.
+ * Using an external LCD screen to display calculated speed.
 
-Additionally, the aesthetic of the final project will employ a Hot Wheels race track which will be retrofitted with the electronics as discretely as possible. This will include inserting the Neopixel strip into one or more lengths of the track while - in the case of multiple track lengths, it would be desirable to use a modular connection mechanism to link multiple Neopixel lengths. This would ensure the toy could be constructed/deconstructed in the usual manner without imposing limitations on its conventional designed use.
+Additionally, the aesthetic of the final project will employ a Hot Wheels race track which will be retrofitted with the electronics as discretely as possible. This will include placement of timing sensors and inserting the Neopixel strip into length of the track as well as housing the driving electronics in an integrated unit.
  
-
 ## Related projects ##
 
 ### Related project 1 ###
@@ -47,13 +45,6 @@ https://hackaday.com/2015/01/19/diy-hot-wheels-drag-race-timer/
 ![Image](hotwheels.jpg)
 
 This shares the idea I have of modifying a toy Hot Wheels race track for this project. This similarly uses timed gates - in this case low power laser modules mounted under the track, and displays the calculated times on LCD displays above the track.
-
-### Related project 4 ###
-
-### Related project 5 ###
-
-### Related project 6 ###
-
 
 ## Reading reflections ##
 
@@ -167,8 +158,6 @@ I have had to rework the MakeCode algorithm to remove some of the sequential pro
 ![Image](Makecode.jpg)
 
 
-
-
 ## Project outcome ##
 
 <span>                | <span>                  | <span>                  
@@ -201,11 +190,31 @@ The intent here is to elevate the enjoyment and experience of play through the a
 
 *Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.*
 
+Overall I feel the project was pretty successful. As noted, a technical issue hindered the intended 'dual track' implementation, which could have been resolved with more time and easy access to required resources. Significant effort expended in the attention to aesthetic detail with the concealment/housing of the electronics was challenging but successfully implemented. The electronic interface comprising the Micro:Bit, the LCD screen, voltage converter is packaged in a very sleek modular unit with the external sensors, Neopixels and power attached via connectors to facilitate detachment and portability. 
 
-*What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?*
+While the Micro:Bit is an interesting (and quirky) learning device, I am not sure if I would choose to use it in any future significant interactive project. The documentation/help facilities are lacking, particularly in respect to more advanced topics (like accessing the nRF signals from other non Micro:Bit devices and using the SPI interface) - especially when compared to the extensive and very well supported Arduino community.
 
+*What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)? What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
 
-*What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
+A number of ideas were explored (in relation to candidate electronic components) and tested before settling for the subset used in final project prototype. For instance, had investigated using an e-Paper screen for display; APA102 DotStar LED's requiring SPI interface; C/C++ libraries (targeted at Arduino) for producing effects with Neopixels and TRCT5000 IR proximity sensor - These being rejected for various reasons not least of which included the level of complexity involved in the attempt to integrate them seamlessly with the Micro:Bit. 
 
+**References**
 
+  * Project concept extended from the Micro:Bit Timing Gates tutorial - https://makecode.microbit.org/projects/timing-gates
+  * DIY Hot Wheels Drag Race Timer - https://hackaday.com/2015/01/19/diy-hot-wheels-drag-race-timer/
+  * Junkyard Engineering - Bluetooth Laser Gate Timer - https://www.youtube.com/watch?v=SxFBqXPfO84
+  * Information regarding the use of I2C with the LCD1602 module - https://osoyoo.com/2018/09/19/micro-bit-lesson-using-the-i2c-lcd-1602-display/
+  * How to target specific addresses when using the LCD1602 module - https://www.youtube.com/watch?v=bqMMIbmYJS0
+  * How to output serial data from Micro:Bit - https://support.microbit.org/support/solutions/articles/19000022103-outputing-serial-data-from-the-micro-bit-to-a-computer
+  * Information pertaining to the use of Neopixels with Micro:Bit - https://learn.adafruit.com/micro-bit-lesson-3-neopixels-with-micro-bit/software
+  * Adafruit Neopixel Uberguide - https://learn.adafruit.com/adafruit-neopixel-uberguide
+  * More info about using Neopixels with Micro:Bit - https://www.digikey.com/en/maker/blogs/2018/how-to-fire-neopixels-on-the-micro-bit
+  * Examples of special effects programming with Neopixels and Arduino (had considered using but not easily ported to Micro:Bit - https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/#LEDStripEffectRunningLights
+  * Information about the use of APA102 LED's (DotStars - had considered using in project) with the Micro:Bit - http://www.smythe-consulting.com/2017/03/driving-dotstar-apa102-led-strings-with.html
+  * Information pertaining to the use of e-Paper HAT (had considered using in project) - https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT
+  * More information re e-Paper HAT - https://emscripten.org/docs/getting_started/Tutorial.html#tutorial
+  
+  
 *What might be an interesting extension of this project? In what other contexts might this project be used?*
+
+Staying within the context of toy enhancement, this concept would be well suited for use in a slot-car racing set, where a timed race could be implemented along with best lap times and leader board displays. Also, modifying the Neopixel strands to vary in pattern or colour dependent on speed etc could make for added interest, along with a 'winner's flag' and musical salute to the race winner.
