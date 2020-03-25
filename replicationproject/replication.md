@@ -232,9 +232,11 @@ Staying within the context of toy enhancement, this concept would be well suited
   * 1 x Self-closing Braided Wire Wrap - 9mm x 2m ($7.95)
   * 1 x DC Barrel connector ($1.50)
   * 1 x Black ABS Electronics Housing Box ($4.95)
+  * 1 x PC Boards Vero Type Strip - 95mm x 75mm ($4.50)
   * 28 AWG wire
   * 22 AWG wire
   * Male-Female Dupont jumpers
+  * Assorted JST connectors (2.54mm)
 
-**Total Project Cost: ~ $145**
+**Total Project Cost: ~ $150 (excluding 5V power supply)**
 
