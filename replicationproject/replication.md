@@ -1,8 +1,7 @@
 # Assessment 1: Replication project
 
 ## Replication project choice ##
-
-### :racing_car: **Timing Gates** 
+**:racing_car: TIMING GATES** 
 
 The original project uses a simple mechanism of detecting a closed circuit to trigger a pin activation (timestamp) event whereby two strips of foil are placed within a few millimeters of each other to enable a toy car with a piece of foil taped to its undercarriage to close the circuit as it passes over the foil gates. The difference between the timestamp events is then displayed using the on-board microbit LED display.
 
