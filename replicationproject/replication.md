@@ -103,7 +103,7 @@ This also extended to the Neopixel string embedded in the track, and how this si
 
 ## Interaction flowchart ##
 *Draw a flowchart of the interaction process in your project. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
-
+**This is the first draft Flow Diagram**
 ![Image](Assignment_1_Flow_Diagram.JPG)
 
 ## Process documentation
@@ -154,7 +154,7 @@ Since the LCD screen and the Neopixels require 5V power, a step-down converter w
 
 I have had to rework the MakeCode algorithm to remove some of the sequential processing that was making the system very sluggish and causing a reduced 'sensitivity' of the sensor arrangement. Breaking out chunks of code into their own 'Forever' constructs effectively provides multi-tasking facility and has now been tested to be very responsive.
 
-**The revised MakeCode algorithm**
+**The revised MakeCode algorithm (removed prior revisions for brevity)**
 ![Image](Makecode.jpg)
 
 
