@@ -103,6 +103,7 @@ This also extended to the Neopixel string embedded in the track, and how this si
 
 ## Interaction flowchart ##
 *Draw a flowchart of the interaction process in your project. Make sure you think about all the stages of interaction step-by-step. Also make sure that you consider actions a user might take that aren't what you intend in an ideal use case. Insert an image of it below. It might just be a photo of a hand-drawn sketch, not a carefully drawn digital diagram. It just needs to be legible.*
+
 **This is the first draft Flow Diagram**
 ![Image](Assignment_1_Flow_Diagram.JPG)
 
@@ -171,6 +172,7 @@ I have had to rework the MakeCode algorithm to remove some of the sequential pro
 ### Project description ###
 
 The project enhances an existing Hot Wheels toy car dual race track to incorporate a number of electronic modifications based on the Micro:Bit controller. The manufacturer indicates that the toy is suitable for children ages 4-10, however with the addition of potentially hazardous electronic components this would be adjusted to a higher age bracket accordingly.
+
 The enhancements include the addition of sensors that are used to calculate the speed of each car as it is ejected from the launch mechanism. As each car passes the sensors, a beep is emitted indicating the timer has been triggered. The speed is also simulated visually with a strip of 33 RGB LEDs (Neopixels) embedded in a segment of each track, as well as being displayed on an LCD screen above the track.
 The intent here is to elevate the enjoyment and experience of play through the addition of interaction by means of visual and audio feedback elements.
 
@@ -192,7 +194,7 @@ The intent here is to elevate the enjoyment and experience of play through the a
 
 Overall I feel the project was pretty successful. As noted, a technical issue hindered the intended 'dual track' implementation, which could have been resolved with more time and easy access to required resources. Significant effort expended in the attention to aesthetic detail with the concealment/housing of the electronics was challenging but successfully implemented. The electronic interface comprising the Micro:Bit, the LCD screen, voltage converter is packaged in a very sleek modular unit with the external sensors, Neopixels and power attached via connectors to facilitate detachment and portability. 
 
-While the Micro:Bit is an interesting (and quirky) learning device, I am not sure if I would choose to use it in any future significant interactive project. The documentation/help facilities are lacking, particularly in respect to more advanced topics (like accessing the nRF signals from other non Micro:Bit devices and using the SPI interface) - especially when compared to the extensive and very well supported Arduino community.
+While the Micro:Bit is an interesting (and quirky) learning device, I am not sure if I would choose to use it in any future significant interactive project. The documentation/help facilities are lacking, particularly in respect to more advanced topics (like accessing the nRF signals from other non Micro:Bit devices, using the SPI interface, and multi-tasking using multiple instances of 'Forever' loop component) - especially when compared to the extensive and very well supported Arduino community.
 
 *What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)? What ideas have you read, heard, or seen that informed your thinking on this project? (Provide references.)*
 
