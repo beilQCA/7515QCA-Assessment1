@@ -186,13 +186,15 @@ The intent here is to elevate the enjoyment and experience of play through the a
 
 *Try to capture the image as if it were in a portfolio, sales material, or project proposal. The project isn't likely to be something that finished, but practice making images that capture the project in that style.*
 
-![Image](_MG_3240.jpg)
+![Image](_MG_3245.jpg)
 
 ### Additional view ###
 
 *Provide some other image that gives a viewer a different perspective on the project such as more about how it functions, the project in use, or something else.*
 
-![Image](_MG_3229.jpg)
+<span>                | <span>                  | <span>                  
+---------------------- | ---------------------- | ----------------------
+ ![Image](_MG_3229.jpg) | ![Image](_MG_4240.jpg) | ![Image](_MG_3226.jpg)
 
 ### Reflection ###
 
