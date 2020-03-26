@@ -153,7 +153,7 @@ Sourced the fourth sensor from Jaycar but it looks slightly different to the oth
  ![Image](_MG_3183.jpg) | ![Image](_MG_3188.jpg) | ![Image](_MG_3200.jpg)
  ![Image](_MG_3203.jpg) | ![Image](_MG_3204.jpg) | ![Image](_MG_3206.jpg)
  
-As far as the aesthetics are concerned, I was careful to drill holes just big enough to accommodate the photo-resistor sensors which have been mounted flush with the surface of the track. A strip was removed from the center of a track length to allow the LEDs to affixed to the underside. The wiring along the track has been conceal by gluing to the underside of the track.
+As far as the aesthetics are concerned, I was careful to drill holes just big enough to accommodate the photo-resistor sensors which have been mounted flush with the surface of the track. A strip was removed from the center of a track length to allow the LEDs to be affixed to the underside. The wiring along the track has been concealed by gluing to the underside of the track.
 
 I chose to use an off-the-shelf black housing to accommodate the major electronic components. Using the Dremel, openings were created; in the front face for the LCD screen, the top face for the Micro:Bit, and the sides for connectors and the Piezo buzzer.
 
