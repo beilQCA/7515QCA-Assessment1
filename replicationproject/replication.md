@@ -194,7 +194,9 @@ The intent here is to elevate the enjoyment and experience of play through the a
 
 <span>                | <span>                  | <span>                  
 ---------------------- | ---------------------- | ----------------------
- ![Image](_MG_3229.jpg) | ![Image](_MG_4240.jpg) | ![Image](_MG_3226.jpg)
+ ![Image](_MG_3229.jpg) | ![Image](_MG_3240.jpg) | ![Image](_MG_3226.jpg)
+
+https://vimeo.com/400822583
 
 ### Reflection ###
 
