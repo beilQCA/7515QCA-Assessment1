@@ -175,6 +175,11 @@ I have had to rework the MakeCode algorithm to remove some of the sequential pro
 ### Project title ###
 **Hot Wheels V2 Racetrack**
 
+![Image](Layer8.png)
+
+https://player.vimeo.com/video/400822583
+
+
 ### Project description ###
 
 The project enhances an existing Hot Wheels toy car dual race track to incorporate a number of electronic modifications based on the Micro:Bit controller. The manufacturer indicates that the toy is suitable for children ages 4-10, however with the addition of potentially hazardous electronic components this would be adjusted to a higher age bracket accordingly.
